@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+      <title>England Weather Bot</title>
+      <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="header-container">
+            <h1>England Weather Chatbot</h1>
+    </div>
+
+    <div id="chat-container">
+        <h2>Bob The Weather Bot</h2>
+        <div id="messages"></div>
+                    <div id="input-wrapper">
+                        <input type="text" id="user-input" placeholder="Type a message...">
+                         <button id="send-btn">➤</button>
+                    </div>
+</div>
+        </div>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

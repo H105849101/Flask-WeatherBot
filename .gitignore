@@ -1,0 +1,22 @@
+#To keep API safe
+.env
+
+# won't include my local database files in github
+*.db
+
+#python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+#editor settings
+.vscode/
+.idea/
+
+# Alembic since not using it
+alembic.ini
+migrations/
+
+# Virtual environment
+venv/
+env/

@@ -1,0 +1,896 @@
+User: hello
+Bot: Hi there!
+User: how are you?
+Bot: I am doing well.
+User: What is the temperature in Birmingham today?
+Bot: The temperature today in Birmingham is 12.63°C with moderate rain.
+
+User: hello
+Bot: Hi there!
+User: what is the weather in Oxford today?
+Bot: The temperature today in Oxford is 12.66°C with scattered clouds.
+User: thank you
+Bot: You're welcome.
+User: Hello
+Bot: Hi there!
+User: What is the weather in Cambridge today?
+Bot: The temperature today in Cambridge is 12.92°C with light rain.
+User: thank you
+Bot: You're welcome.
+User: Hello
+Bot: Hi there!
+User: Weather in Oxford?
+Bot: What is the weather like in Norwich today?
+User: Tell me the weather in Oxford
+Bot: What is the weather like in Norwich today?
+User: Hello
+Bot: Hi there!
+User: Weather in Oxford
+Bot: Tell me the weather in Oxford
+User: What's the weather in Oxford?
+Bot: Weather in Oxford?
+User: weather in Oxford
+Bot: Tell me the weather in Oxford
+User: hello
+Bot: Hi there!
+User: weather in cambridge
+Bot: Tell me the weather in Cambridge.
+User: Tell me the weather in Cambridge
+Bot: What's the weather in Cambridge?
+User: hello
+Bot: Hi there!
+User: Weather in Birmingham
+Bot: Weather in Birmingham?
+User: hello
+Bot: Hi there!
+User: weather in oxford
+Bot: Tell me the weather in Oxford
+User: Weather in Oxford
+Bot: Tell me the weather in Oxford
+User: hello
+Bot: Hi there!
+User: What is the weather in Cambridge today?
+Bot: The temperature today in Cumbria is 12.54°C with moderate rain.
+User: Weather in Cambridge
+Bot: What's the weather in Cambridge?
+User: Tell me the weather in Cambridge
+Bot: what is the weather in cumbria?
+User: hello
+Bot: Hi
+User: Weather in Oxford
+Bot: The temperature today in Oxford is 9.15°C with overcast clouds.
+User: weather in cambridge
+Bot: The temperature today in Cambridge is 8.91°C with overcast clouds.
+User: is it raining in stonehenge?
+Bot: The temperature today in Stonehenge is 10.05°C with overcast clouds.
+User: thank you
+Bot: Thank you.
+User: weather in cumbria
+Bot: The temperature today in Cumbria is 3.15°C with overcast clouds.
+User: weather in cumbria tomorrow
+Bot: Sorry, I don't understand that.
+User: thank you
+Bot: You're welcome!
+User: hello
+Bot: Hi
+User: weather in cofre castle
+Bot: The temperature today in Corfe Castle is 11.29°C with overcast clouds.
+User: weather in stonehenge tomorrow
+Bot: The temperature today in Stonehenge is 10.05°C with overcast clouds.
+User: weather in stonehenge
+Bot: The temperature today in Stonehenge is 10.05°C with overcast clouds.
+User: thank you
+Bot: You're welcome!
+User: hi
+Bot: Hello
+User: weather in cumbria tommorow
+Bot: The temperature today in Cumbria is 3.15°C with overcast clouds.
+User: weather in watergate bay
+Bot: Could not fetch forecast.
+User: weather in cumbria
+Bot: Forecast for Cumbria on 2025-11-16: 11.6°C, clear sky.
+User: weather in cumbria tomorrow
+Bot: Forecast for Cumbria on 2025-11-17: 3.6°C, clear sky.
+User: weather in oxford
+Bot: Forecast for Oxford on 2025-11-16: 8.0°C, overcast clouds.
+User: weather in corfe castle
+Bot: Could not fetch forecast.
+User: weather in oxford tomorrow
+Bot: Forecast for Oxford on 2025-11-17: 4.6°C, clear sky.
+User: weather in oxford in 2 days
+Bot: Forecast for Oxford on 2025-11-16: 8.0°C, overcast clouds.
+User: weather in oxford in 3 days
+Bot: Forecast for Oxford on 2025-11-16: 8.0°C, overcast clouds.
+User: weather in oxford
+Bot: Forecast for Oxford on 2025-11-16: 8.0°C, overcast clouds.
+User: weather in oxford tomorrow
+Bot: Forecast for Oxford on 2025-11-17: 4.6°C, clear sky.
+User: weather in oxford in 2 days
+Bot: Forecast for Oxford on 2025-11-16: 8.0°C, overcast clouds.
+User: hello
+Bot: Hi
+User: weather in corfe castle
+Bot: Could not fetch forecast.
+User: weather in cumbria
+User: hello
+Bot: Hi
+User: weather in corfe castle
+Bot: Could not fetch forecast.
+User: weather in cumbria
+Bot: Forecast for Cumbria on 2025-11-16: 10.5°C, clear sky.
+User: weather in cumbria tomorrw
+Bot: Forecast for Cumbria on 2025-11-16: 10.5°C, clear sky.
+User: weather in cumbria tomorrow
+Bot: Forecast for Cumbria on 2025-11-17: 3.6°C, clear sky.
+User: weather in cumbria in 2 days
+Bot: Forecast for Cumbria on 2025-11-18: 1.2°C, clear sky.
+User: weather in cumbria in 5 days
+Bot: Forecast for Cumbria on 2025-11-21: 11.4°C, overcast clouds.
+User: weather in corfe castle
+Bot: Could not fetch forecast.
+User: weather in Corfe Castle
+Bot: Could not fetch forecast.
+User: weather in watergate bay
+Bot: Could not fetch forecast.
+User: weather in watergate bay
+Bot: Could not fetch forecast.
+User: weather in corfe castle
+Bot: Could not fetch forecast.
+User: weather in corfe castle
+Bot: Could not fetch forecast.
+User: corfe castle weather
+Bot: Could not fetch forecast.
+User: weather in corfe castle
+Bot: Could not fetch forecast.
+User: the cotswolds weather
+Bot: Could not fetch forecast.
+User: corfe castle weather
+Bot: Forecast for Corfe Castle on 2025-11-16: 9.0°C, overcast clouds.
+User: corfe castle weather in 4 days
+Bot: Forecast for Corfe Castle on 2025-11-20: 3.2°C, overcast clouds.
+User: the cotswolds weather
+Bot: Could not fetch forecast.
+User: watergate bay weather
+Bot: Could not fetch forecast.
+User: corfe castle weather
+Bot: Forecast for Corfe Castle on 2025-11-16: 9.0°C, overcast clouds.
+User: the cotswolds weather
+Bot: Could not fetch forecast.
+User: watergate bay weather
+Bot: Could not fetch forecast.
+User: corfe castle weather
+Bot: Forecast for Corfe Castle on 2025-11-16: 9.0°C, overcast clouds.
+User: watergate bay weather
+Bot: Could not fetch forecast.
+User: the cotswolds weather
+Bot: Could not fetch forecast.
+User: cumbria weather
+Bot: Forecast for Cumbria on 2025-11-16: 10.7°C, clear sky.
+User: corfe castle weather
+Bot: Unknown location.
+User: the cotswolds weather
+Bot: Unknown location.
+User: cumbria weather
+Bot: Forecast for Cumbria on 2025-11-16: 1.8°C, clear sky.
+User: corfe casstle weather
+Bot: Sorry, I don't have data for that location.
+User: cumbria weather
+Bot: Forecast for Cumbria on 2025-11-16: 1.8°C, clear sky.
+User: cumbria weathe in 2 days
+Bot: Fetching forecast...
+User: cumbria weather
+Bot: Forecast for Cumbria on 2025-11-16: 1.8°C, clear sky.
+User: cumbria weather tomorrow
+Bot: Forecast for Cumbria on 2025-11-17: -1.6°C, clear sky.
+User: cumbria weather in 3 days
+Bot: Forecast for Cumbria on 2025-11-19: -1.6°C, light snow.
+User: cumbria weather in 5 days
+Bot: Forecast for Cumbria on 2025-11-21: -5.8°C, clear sky.
+User: the cotswolds weather
+Bot: Forecast for The Cotswolds on 2025-11-16: 6.7°C, overcast clouds.
+User: corfe castle weather
+Bot: Forecast for Corfe Castle on 2025-11-16: 8.8°C, overcast clouds.
+User: corfe castle weather in 3 days
+Bot: Forecast for Corfe Castle on 2025-11-19: 5.3°C, light rain.
+User: watergate bay weather
+Bot: Forecast for Watergate Bay on 2025-11-16: 10.4°C, overcast clouds.
+User: thank you
+Bot: You're welcome!
+User: do I need a jacket today?
+Bot: The temperature today in Cumbria is 3.15°C with overcast clouds.
+User: do I need a jacket in birmingham today?
+Bot: The temperature today in Cumbria is 3.15°C with overcast clouds.
+User: hello
+Bot: Hi
+User: \do I need a jacket in cumbria today?
+Bot: The temperature today in Cumbria is 3.15°C with overcast clouds.
+User: do I need a jacket in birmingham?
+Bot: The temperature today in Birmingham is 8.51°C with mist.
+User: do I need a jacket today in cumbria
+Bot: Forecast for Cumbria on 2025-11-16: 2.0°C, clear sky. Yes, it's quite cold. You should wear a jacket.
+User: Will I need a jacked in birmingham in 2 days
+Bot: The temperature today in Birmingham is 8.51°C with mist.
+User: do I need a jacket in birmingham in 2 days
+Bot: Forecast for Birmingham on 2025-11-18: 3.8°C, overcast clouds. Yes, it's quite cold. You should wear a jacket.
+User: thank you\
+Bot: Sorry, I don't understand that.
+User: thank you
+Bot: You're welcome!
+User: hello	
+Bot: Hi
+User: what is the weather in birmingham?
+Bot: Forecast for Birmingham on 2025-11-16: 6.2°C, broken clouds. Would you like a list of activities to do in Birmingham?
+User: yes
+Bot: Sorry, I don't understand that.
+User: hello
+Bot: Hi
+User: how are you?
+Bot: Good
+User: weather in Cumbria
+Bot: Forecast for Cumbria on 2025-11-17: -0.4°C, few clouds. Would you like a list of activities to do in Cumbria?
+User: yes
+Bot: yes
+User: corfe castle weather
+Bot: Unknown location.
+User: weather in corfe castle
+Bot: Unknown location.
+User: weather in birmingham
+Bot: Forecast for Birmingham on 2025-11-17: 3.8°C, broken clouds. Would you like a list of activities to do in Birmingham? Would you like a list of activities to do in Birmingham?
+User: yes
+Bot: Sorry, I don't understand that.
+User: corfe castle weather
+Bot: Unknown location.
+User: cumbria weather
+Bot: Forecast for Cumbria on 2025-11-17: -0.4°C, few clouds. Would you like a list of activities to do in Cumbria? Would you like a list of activities to do in Cumbria?
+User: yes
+User: corfe castle weather
+Bot: Unknown location.
+User: cumbria weather
+Bot: Forecast for Cumbria on 2025-11-17: -0.3°C, few clouds. Would you like a list of activities to do in Cumbria? Would you like a list of activities to do in Cumbria?
+User: yes
+Bot: Sorry, I don't understand that.
+User: cumbria castle
+Bot: Sorry, I don't understand that.
+User: cumbria weather
+Bot: Forecast for Cumbria on 2025-11-17: -0.3°C, few clouds. Would you like a list of activities to do in Cumbria? Would you like a list of activities to do in Cumbria?
+User: Yes
+Bot: Sorry, I don't understand that.
+User: corfe castle weather
+Bot: Unknown location.
+User: cumbria weather
+Bot: Forecast for Cumbria on 2025-11-17: -0.3°C, few clouds. Would you like a list of activities to do in Cumbria? Would you like a list of activities to do in Cumbria?
+User: yes
+Bot: Yes
+User: cumbria weather in 2 dayws
+Bot: Forecast for Cumbria on 2025-11-17: -0.3°C, few clouds. Would you like a list of activities to do in Cumbria? Would you like a list of activities to do in Cumbria?
+User: cumbria weather tomorrow
+Bot: Forecast for Cumbria on 2025-11-18: -0.9°C, light snow. Would you like a list of activities to do in Cumbria? Would you like a list of activities to do in Cumbria?
+User: cumbria weather in 2 days
+Bot: Forecast for Cumbria on 2025-11-19: -4.1°C, clear sky. Would you like a list of activities to do in Cumbria? Would you like a list of activities to do in Cumbria?
+User: yes
+Bot: Yes
+User: corfe castle weather
+Bot: Unknown location.
+User: the cotswolds weather
+Bot: Sorry, I don't have data for that location.
+User: watergate bay weather
+Bot: Unknown location.
+User: corfe castle weather
+Bot: Forecast for Corfe Castle on 2025-11-17: 4.9°C, clear sky. Would you like a list of activities to do in Corfe Castle? Would you like a list of activities to do in Corfe Castle?
+User: yes
+Bot: Sorry, I don't understand that.
+User: watergate bay weather
+Bot: Forecast for Watergate Bay on 2025-11-17: 7.4°C, overcast clouds. Would you like a list of activities to do in Watergate Bay? Would you like a list of activities to do in Watergate Bay?
+User: the cotswolds weather
+Bot: Sorry, I don't have data for that location.
+User: the cotswolds weather
+Bot: Sorry, I don't have data for that location.
+User: the cotswolds weather
+Bot: Forecast for The Cotswolds on 2025-11-17: 4.0°C, clear sky. Would you like a list of activities to do in The Cotswolds? Would you like a list of activities to do in The Cotswolds?
+User: watergate bay weather
+Bot: Forecast for Watergate Bay on 2025-11-17: 7.4°C, clear sky. Would you like a list of activities to do in Watergate Bay? Would you like a list of activities to do in Watergate Bay?
+User: yes
+Bot: Sorry, I don't understand that.
+User: birmingham weather
+Bot: Forecast for Birmingham on 2025-11-17: 3.8°C, clear sky. Would you like a list of activities to do in Birmingham? Would you like a list of activities to do in Birmingham?
+User: yes
+Bot: Sorry, I don't understand that.
+User: hello
+Bot: Hi
+User: watergate bay weather
+Bot: Forecast for Watergate Bay on 2025-11-17: 7.4°C, clear sky. Would you like a list of activities to do in Watergate Bay? Would you like a list of activities to do in Watergate Bay?
+User: yes
+Bot: Here are some activities to do in Watergate Bay: Try some water sports, Walk along the beach, Visit the local restaurants
+User: thank you!
+Bot: You're welcome!
+User: will i need a jacket in birmingham in 2 days?
+Bot: Forecast for Birmingham on 2025-11-19: 2.6°C, light rain. Would you like a list of activities to do in Birmingham? Yes, it's quite cold. You should wear a jacket. Would you like a list of activities to do in Birmingham?
+User: weather in oxford
+Bot: Forecast for Oxford on 2025-11-17: 4.9°C, clear sky.  Would you like a list of activities to do in Oxford?
+User: yes please
+Bot: Here are some activities to do in Oxford: Go on a walking tour of the city, Visit the Ashmolean Museum, Visit the Oxford Castle and Prison
+User: will i need a jacket at stonehenge in 3 days?
+Bot: Forecast for Stonehenge on 2025-11-20: 0.5°C, clear sky.  Yes, it's quite cold. You should wear a jacket. Would you like a list of activities to do in Stonehenge?
+User: yes please
+Bot: Here are some activities to do in Stonehenge: Explore the stone circle, Visit the Visitor Centre, Go on a hike nearby
+User: thank you
+Bot: You're welcome!
+User: hello
+Bot: Hi
+User: what is the weather in cumbria
+Bot: Forecast for Cumbria on 2025-11-17: -0.3°C, few clouds.  Would you like a list of activities to do in Cumbria?
+User: no
+Bot: Okay! Let me know if you want anything else.
+User: will i need a jacket in 3 days in oxford?
+Bot: Forecast for Oxford on 2025-11-20: 1.0°C, clear sky.  Yes, it's quite cold. You should wear a jacket. Would you like a list of activities to do in Oxford?
+User: sure
+Bot: Here are some activities to do in Oxford: Go on a walking tour of the city, visit the Ashmolean Museum, or visit the Oxford Castle and Prison
+User: thanks
+Bot: Sorry, I don't understand that.
+User: thank you
+Bot: You're welcome!
+User: hello
+Bot: Hi
+User: weather in oxford
+Bot: Forecast for Oxford on 2025-11-17: 4.9°C, clear sky.  Would you like a list of activities to do in Oxford?
+User: yes
+Bot: Here are some activities to do in Oxford: Go on a walking tour of the city, visit the Ashmolean Museum, or visit the Oxford Castle and Prison
+User: do i need a jacked in birmingham today?
+Bot: The temperature today in Birmingham is 8.51°C with mist.
+User: do i need a jacket in birming ham today?\
+Bot: Sorry, I don't have data for that location.
+User: 'exit
+Bot: Sorry, I don't understand that.
+User: hello
+Bot: Hi
+User: weather in cumbria
+Bot: Forecast for Cumbria on 2025-11-17: -0.4°C, few clouds.  Would you like a list of activities to do in Cumbria?
+User: no
+Bot: Okay! Let me know if you want anything else.
+User: do i need a jacket in oxford
+Bot: Forecast for Oxford on 2025-11-17: 4.9°C, clear sky.  Yes, it's quite cold. You should wear a jacket. Would you like a list of activities to do in Oxford?
+User: yes
+Bot: Here are some activities to do in Oxford: Go on a walking tour of the city, visit the Ashmolean Museum, or visit the Oxford Castle and Prison
+User: thank you
+Bot: You're welcome!
+User: hello
+Bot: hi
+User: weather in oxford
+Bot: Forecast for Oxford on 2025-11-17: 4.6°C, scattered clouds.  Would you like a list of activities to do in Oxford?
+User: yes
+Bot: Here are some activities to do in Oxford: Go on a walking tour of the city, visit the Ashmolean Museum, or visit the Oxford Castle and Prison
+Bot: yes
+User: do i need a jacket in oxford
+Bot: Forecast for Oxford on 2025-11-17: 4.6°C, scattered clouds.  Yes, it's quite cold. You should wear a jacket. Would you like a list of activities to do in Oxford?
+User: yes
+Bot: Here are some activities to do in Oxford: Go on a walking tour of the city, visit the Ashmolean Museum, or visit the Oxford Castle and Prison
+Bot: yes
+User: weather in cumbria in 3 days
+Bot: Forecast for Cumbria on 2025-11-20: -5.3°C, clear sky.  Would you like a list of activities to do in Cumbria?
+User: yes
+Bot: Here are some activities to do in Cumbria: Go water rafting at Lake District, kayak on Lake Derwentwater,  or go on a mountain bike guide
+Bot: Yes
+User: hello
+Bot: Hi
+User: weather in cumbria
+Bot: Forecast for Cumbria on 2025-11-17: -0.6°C, few clouds.  Would you like a list of activities to do in Cumbria?
+User: yes
+Bot: Here are some activities to do in Cumbria: Go water rafting at Lake District, kayak on Lake Derwentwater,  or go on a mountain bike guide
+User: hi'
+Bot: Hello
+User: what is the weather in birmingham?
+Bot: Forecast for Birmingham on 2025-11-17: 3.3°C, clear sky.  Would you like a list of activities to do in Birmingham?
+User: yes
+Bot: Here are some activities to do in Birmingham: Visit the National Sea Life Centre, visit Winterbourne House and Gardens, or see a show at the Birmingham Hippodrome
+User: weather in stonehenge in 3 days
+Bot: Forecast for Stonehenge on 2025-11-20: 0.5°C, clear sky.  Would you like a list of activities to do in Stonehenge?
+User: do i need a jacket in oxford tomorrow?
+Bot: Okay! Let me know if you want anything else.
+User: do i need a jacket in oxford tomorrow
+Bot: Forecast for Oxford on 2025-11-18: 3.3°C, light rain.  Yes, it's quite cold. You should wear a jacket. Would you like a list of activities to do in Oxford?
+User: yes
+Bot: Here are some activities to do in Oxford: Go on a walking tour of the city, visit the Ashmolean Museum, or visit the Oxford Castle and Prison
+User: thanks
+Bot: No problem!
+User: exit
+Bot: 'exit
+User: by
+Bot: Sorry, I don't understand that.
+User: bye
+Bot: Sorry, I don't understand that.
+User: hello
+Bot: Hi
+User: hello
+Bot: Hi
+User: how are you?
+Bot: Good
+User: weather in cumbria
+Bot: Forecast for Cumbria on 2025-11-17: -0.7°C, few clouds.  Would you like a list of activities to do in Cumbria?
+User: yes please
+Bot: Here are some activities to do in Cumbria: Go water rafting at Lake District, kayak on Lake Derwentwater,  or go on a mountain bike guide
+User: thanks
+Bot: No problem!
+User: hello
+Bot: Hi
+User: splat
+Bot: Sorry, I don't understand that.
+User: how are you?
+Bot: Good
+User: weather in oxford in 2 days
+Bot: Forecast for Oxford on 2025-11-19: 2.9°C, light rain.  Would you like a list of activities to do in Oxford?
+User: yes
+Bot: Here are some activities to do in Oxford: Go on a walking tour of the city, visit the Ashmolean Museum, or visit the Oxford Castle and Prison
+User: do i need a jacket in stoneghenge tomorrow?
+Bot: Sorry, I don't have data for that location.
+User: do i need a jacket in stonehenge tomorrow?
+Bot: Forecast for Stonehenge on 2025-11-18: 2.8°C, scattered clouds.  Yes, it's quite cold. You should wear a jacket. Would you like a list of activities to do in Stonehenge?
+User: ok
+Bot: Here are some activities to do in Stonehenge: Explore the stone circle, visit the Visitor Centre, or go on a hike nearby
+User: thanks
+Bot: No problem!
+User: bye
+Bot: bye
+User: hello
+Bot: Hi
+User: hello
+Bot: Hi
+User: hello
+Bot: Hi
+User: hello
+Bot: hi
+User: hello
+Bot: hi
+User: hello
+Bot: hi
+User: hello
+Bot: Hi
+User: hwllo
+Bot: Sorry, I don't understand that.
+User: hi
+Bot: Hello
+User: hello
+Bot: Hi
+User: hi
+Bot: Hello
+User: hi
+Bot: Hello
+User: hi
+Bot: hello
+User: hi
+Bot: hello
+User: how are you?
+Bot: Good
+User: hello
+Bot: Hi
+User: hi
+Bot: Hello
+User: hi
+Bot: Hello
+User: hello
+Bot: Hi
+User: hi
+Bot: Hello
+User: hello
+Bot: Hi
+User: hello
+Bot: Hi
+User: hello
+Bot: hi
+User: hello
+Bot: hi
+User: hello
+Bot: Hi
+User: how are you?
+Bot: Good
+User: thats good
+Bot: Sorry, I don't understand that.
+User: weather in cumbria
+Bot: Forecast for Cumbria on 2025-11-17: -1.0°C, few clouds.  Would you like a list of activities to do in Cumbria?
+User: yes please
+Bot: Here are some activities to do in Cumbria: Go water rafting at Lake District, kayak on Lake Derwentwater,  or go on a mountain bike guide
+User: thank you
+Bot: You're welcome!
+User: hello
+Bot: Hi
+User: what is the weather in oxford?
+Bot: Forecast for Oxford on 2025-11-19: 1.8°C, overcast clouds.  Would you like a list of activities to do in Oxford?
+User: yes please
+Bot: Here are some activities to do in Oxford: Go on a walking tour of the city, visit the Ashmolean Museum, or visit the Oxford Castle and Prison
+User: weather in stonehenge in 3 days?
+Bot: Forecast for Stonehenge on 2025-11-22: 4.2°C, overcast clouds.  Would you like a list of activities to do in Stonehenge?
+User: yes
+Bot: Here are some activities to do in Stonehenge: Explore the stone circle, visit the Visitor Centre, or go on a hike nearby
+User: hi
+Bot: Hello
+User: what is the weather in birmingham?
+Bot: Forecast for Birmingham on 2025-11-19: 1.6°C, broken clouds.  Would you like a list of activities to do in Birmingham?
+User: yes
+Bot: Here are some activities to do in Birmingham: Visit the National Sea Life Centre, visit Winterbourne House and Gardens, or see a show at the Birmingham Hippodrome
+User: do i need a jacket in watergate bay in 5 days?
+Bot: Forecast for Watergate Bay on 2025-11-24: 9.3°C, light rain.  Yes, it's quite cold. You should wear a jacket. Would you like a list of activities to do in Watergate Bay?
+User: yes please
+Bot: Here are some activities to do in Watergate Bay: Try some water sports, walk along the beach, or visit the local restaurants
+User: hi
+User: hello
+User: hi
+Bot: Hello
+User: how are you
+Bot: Good
+User: what is the weather in cumbria?
+User: weather in cumbria?
+User: sunset in oxford?
+Bot: The temperature today in Oxford is 9.15°C with overcast clouds.
+User: weather in oxford?
+User: oxford?
+Bot: The temperature today in Oxford is 9.15°C with overcast clouds.
+User: oxford in 3 days?
+Bot: Fetching forecast...
+User: hi
+Bot: Hello
+User: how are you?
+Bot: Good
+User: weather in corfe castle
+User: weather in oxford?
+User: hi
+Bot: Hello there!
+User: how are you
+Bot: I'm doing well, thanks!
+User: cumbria weather
+User: oxford weather?
+User: thanks
+Bot: No problem!
+User: cheers
+Bot: You're welcome!
+User: hi
+Bot: Hello there!
+User: how are you
+Bot: I'm doing well, thanks!
+User: weather in cumbria
+User: weather in oxford?
+User: weather in oxford?
+User: cheers
+Bot: You're welcome!
+User: weather in cumbria
+User: hi
+Bot: Hello there!
+User: cumbria weather
+User: oxford weather5
+User: hi
+Bot: Hello there!
+User: weather in cumbria
+User: cheers
+Bot: You're welcome!
+User: thanks
+Bot: No problem!
+User: weather
+Bot: Sorry, I don't have data for that location.
+User: cumbria
+Bot: The temperature today in Cumbria is 5.37°C with moderate rain.
+User: oxford
+Bot: The temperature today in Oxford is 3.43°C with broken clouds.
+User: weather in oxford
+User: what is the weather in oxford
+Bot: The temperature today in Oxford is 3.43°C with broken clouds.
+User: weather in corfe castle
+Bot: The temperature today in Corfe Castle is 7.84°C with light rain.
+User: weather at stonehenge
+Bot: The temperature today in Stonehenge is 2.35°C with few clouds.
+User: birmingham weather
+Bot: The temperature today in Cumbria is 5.37°C with moderate rain.
+User: birmingham weather
+Bot: The temperature today in Cumbria is 5.37°C with moderate rain.
+User: do I need a jacket in cumbria
+Bot: I can tell you if you need a jacket!
+User: please
+Bot: please
+User: do I need a jacket
+Bot: I can tell you if you need a jacket!
+User: hi
+Bot: Hello there!
+User: weather in cumbria
+Bot: Forecast for Cumbria on 2025-11-22: 2.4°C, overcast clouds. Would you like activities to do in Cumbria?
+User: yes
+Bot: Activities in Cumbria: Go water rafting at Lake District, kayak on Lake Derwentwater,  or go on a mountain bike guide
+User: do I need a jacket in oxford tomorrow?
+Bot: Forecast for Oxford on 2025-11-23: 5.8°C, light rain. Yes, you should wear a jacket. Would you like activities to do in Oxford?
+User: yes
+Bot: Activities in Oxford: Go on a walking tour of the city, visit the Ashmolean Museum, or visit the Oxford Castle and Prison
+User: thanks
+Bot: No problem!
+User: when is the sunset in oxford?
+Bot: The sunset in Oxford is at 03:08.
+User: when is the sunset in oxford in 3 days
+Bot: The sunset in Oxford is at 03:08.
+User: do I need a jacket in cumbria tomorrow?
+Bot: Forecast for Cumbria on 2025-11-23: 1.4°C, light rain. Yes, you should wear a jacket. Would you like activities to do in Cumbria?
+User: yes
+Bot: Activities in Cumbria: Go water rafting at Lake District, kayak on Lake Derwentwater,  or go on a mountain bike guide
+User: sunrise at stonehenge
+Bot: The sunrise in Stonehenge is at 18:34.
+User: sunrise in oxford
+Bot: Let me check the forecast/ sun times for Oxford.
+User: sunset in cumbria
+Bot: Let me check the forecast/ sun times for Cumbria.
+User: thanks
+Bot: No problem!
+User: sunset in birmingham
+Bot: The sunset in Birmingham on 2025-11-22 is at 03:07.
+User: sunrise in oxford in 3 days
+Bot: The sunrise in Oxford on 2025-11-25 is at 18:39.
+User: do I need a jacket in 4 days in corfe castle?
+Bot: Forecast for Corfe Castle on 2025-11-26: 4.8°C, overcast clouds. Yes, you should wear a jacket. Would you like activities to do in Corfe Castle?
+User: yes
+Bot: Activities in Corfe Castle: Tour Corfe Castle, walk around the castle, or visit local cafes
+User: thanks
+Bot: No problem!
+User: hello
+Bot: Hi
+User: hi
+Bot: Hello there!
+User: hi
+Bot: Hello there!
+User: hello
+Bot: Hi
+User: hello
+Bot: Hi
+User: hello
+Bot: hi
+User: weather in cumbria
+Bot: Forecast for Cumbria on 2025-11-23: 2.7°C, moderate rain. Would you like activities to do in Cumbria?
+User: hello
+Bot: Okay! Let me know if you want anything else.
+User: hello
+Bot: hi
+User: cumbria weather
+Bot: Forecast for Cumbria on 2025-11-23: 2.7°C, moderate rain. Would you like activities to do in Cumbria?
+User: yes
+Bot: Activities in Cumbria: Go water rafting at Lake District, kayak on Lake Derwentwater,  or go on a mountain bike guide
+User: oxford weather?
+Bot: Forecast for Oxford on 2025-11-23: 6.5°C, light rain. Would you like activities to do in Oxford?
+User: yes
+Bot: Activities in Oxford: Go on a walking tour of the city, visit the Ashmolean Museum, or visit the Oxford Castle and Prison
+User: hello
+Bot: Hi
+User: hello
+Bot: Hi
+User: hi
+Bot: Hello there!
+User: weather in birmingham?
+Bot: Forecast for Birmingham on 2025-11-23: 5.8°C, light rain. Would you like activities to do in Birmingham?
+User: yes please
+Bot: Activities in Birmingham: Visit the National Sea Life Centre, visit Winterbourne House and Gardens, or see a show at the Birmingham Hippodrome
+User: do I need a jacket in oxford in 2 days?
+Bot: Forecast for Oxford on 2025-11-25: 4.1°C, few clouds. Yes, you should wear a jacket. Would you like activities to do in Oxford?
+User: sure
+Bot: Activities in Oxford: Go on a walking tour of the city, visit the Ashmolean Museum, or visit the Oxford Castle and Prison
+User: sunset time at stonehenge tomorrow
+Bot: The sunset in Stonehenge on 2025-11-24 is at 03:10.
+User: sun rise time in oxford
+Bot: Let me check the forecast/ sun times for Oxford.
+User: sunrise time in oxford
+Bot: The sunrise in Oxford on 2025-11-23 is at 18:35.
+User: hllo
+Bot: Sorry, I don't understand that.
+User: hello
+Bot: Hi
+User: hello
+Bot: Hi
+User: sunset times in oxford tomorrow
+Bot: The sunset in Oxford on 2025-11-24 is at 16:05.
+User: sunrise time in oxford tomorrow'
+Bot: The sunrise in Oxford on 2025-11-24 is at 07:37.
+User: thank you!
+Bot: You're welcome!
+User: hi
+Bot: Hello there!
+User: sunrise time and weather in oxford
+Bot: Forecast for Oxford on 2025-11-23: 6.6°C, light rain. Would you like activities to do in Oxford?
+User: yes
+Bot: Activities in Oxford: Go on a walking tour of the city, visit the Ashmolean Museum, or visit the Oxford Castle and Prison
+User: sunrise time oxford
+Bot: The sunrise in Oxford on 2025-11-23 is at 07:37.
+User: what is the weather in Oxford?
+Bot: Forecast for Oxford on 2025-11-24: 5.6°C, light rain. Would you like activities to do in Oxford?
+User: weather in birmingham in 3 days
+Bot: Okay! Let me know if you want anything else.
+User: weather in birmingham in 3 days
+Bot: Forecast for Birmingham on 2025-11-27: 9.3°C, overcast clouds. Would you like activities to do in Birmingham?
+User: sunrise time at stonehenge tomorrow
+Bot: Okay! Let me know if you want anything else.
+User: sunrise times in stonehenge tomorrow
+Bot: The sunrise in Stonehenge on 2025-11-25 is at 07:37.
+User: hi
+Bot: Hello there!
+User: weather in oxford?
+Bot: Sorry, I don't have data for Oxford.
+User: weather inbristol?
+Bot: Sorry, I don't have data for Bristol.
+User: hi
+User: hello
+User: weather in oxford?
+Bot: Sorry, I don't have data for Oxford.
+User: cumbria weather
+Bot: Sorry, I don't have data for Cumbria.
+User: hi
+User: hello
+User: hi
+Bot: Hello there!
+User: weather in oxford?
+User: oxford weather?
+User: bristol weather?
+User: thanks
+Bot: No problem!
+User: cheers
+Bot: You're welcome!
+User: ok
+Bot: Sorry, I don't understand that.
+User: hi
+User: hi
+User: weather in cumbria
+User: hi
+Bot: Hello there!
+User: bristol weather?
+User: sunrise time
+Bot: Let me check the forecast or sun times for Oxford.
+User: oxford weather?
+User: what is the weather in cumbria
+User: hi
+Bot: Hello there!
+User: weather in Oxford?
+User: cumbria weather?
+User: do I need a jacket in bristol today?
+User: hi
+Bot: Hello there!
+User: Oxford weather?
+User: weather in Oxford?
+User: hi
+Bot: Hello
+User: weather in oxford?
+User: weather in cumbria
+User: do I need a jacket in bristol?
+User: cheers
+Bot: You're welcome!
+User: how are you?
+Bot: I'm doing well, thanks!
+User: hi
+Bot: Hello there!
+User: weather in bristol
+User: Weather in Bristol?
+User: hi
+Bot: Hello there!
+User: weather in bristol?
+User: sunset time in cumbria
+User: oxford?
+User: oxford
+User: oxford
+User: hi
+Bot: Hello there!
+User: weather in oxford
+User: hi
+Bot: Hello there!
+User: weather in bristol
+Bot: Forecast for Bristol on 2025-11-24: 6.7°C, light rain. Would you like activities to do in Bristol?
+User: yes
+Bot: Activities in Bristol: Visit the Bristol Aquarium, go to the Bristol Museum and Art Gallery, or walk over the Clifton Suspension Bridge
+User: do I need a jacket in cumbria today?
+Bot: Forecast for Cumbria on 2025-11-24: 2.1°C, light rain. Yes, you should wear a jacket. Would you like activities to do in Cumbria?
+User: yes please
+Bot: Activities in Cumbria: Go water rafting at Lake District, kayak on Lake Derwentwater,  or go on a mountain bike guide
+User: thank you
+Bot: You're welcome!
+User: hi
+Bot: Hello there!
+User: cumbria weather
+Bot: Forecast for Cumbria on 2025-11-24: 2.1°C, light rain. Would you like activities to do in Cumbria?
+User: forecast in bristol in next 5 days?
+Bot: Okay! Let me know if you want anything else.
+User: Forecast in Bristol in next 5 days
+Bot: 5-day forecast for Bristol:
+2025-11-24: 6.7°C, light rain
+2025-11-25: 5.2°C, few clouds
+2025-11-26: 4.6°C, light rain
+2025-11-27: 11.0°C, overcast clouds
+2025-11-28: 8.9°C, overcast clouds
+2025-11-29: 7.0°C, light rain
+
+User: bristol 5 day forecast
+Bot: Let me check the forecast or sun times for Bristol.
+User: forecast for bristol in next 5 days
+Bot: 5-day forecast for Bristol:
+• Monday (2025-11-24):  6.7°C, light rain
+• Tuesday (2025-11-25):  5.2°C, few clouds
+• Wednesday (2025-11-26):  4.6°C, light rain
+• Thursday (2025-11-27): 11.0°C, overcast clouds
+• Friday (2025-11-28):  8.9°C, overcast clouds
+• Saturday (2025-11-29):  7.0°C, light rain
+
+User: bristol forecast for next 5 days
+User: forecast for Bristol in next 5 days
+User: oxford forecast in next 5 days
+User: forecast for cumbria in next 5 days
+User: forecast for oxford in next 5 days
+User: 5 days forecast for cumbria
+Bot: Let me check the forecast for Cumbria.
+User: cumbria forecast for next 5 days
+User: forecast in bristol in next 5 days
+User: forecast in corfe castle in next 5 days
+User: forecast in oxford in next 5 days
+User: forecast in the cotswolds in next 5 days
+User: cumbria forecast next 5 days
+User: cumbria weather
+User: forecast for cumbria in next 5 days
+User: cumbria weather
+Bot: Forecast for Cumbria on 2025-11-24: 1.9°C, light rain. Would you like activities to do in Cumbria?
+User: no
+Bot: Okay! Let me know if you want anything else.
+User: 5 day forecast for corfe castle
+Bot: Let me check the forecast for Corfe Castle.
+User: 5 days forecast for corfe castle
+Bot: Let me check the forecast for Corfe Castle.
+User: corfe castle forecast for next 5 days
+Bot: 5-day forecast for Corfe Castle:<br>&bull; Monday (2025-11-24): 6.9°C, light rain<br>&bull; Tuesday (2025-11-25): 5.7°C, broken clouds<br>&bull; Wednesday (2025-11-26): 6.2°C, overcast clouds<br>&bull; Thursday (2025-11-27): 12.2°C, overcast clouds<br>&bull; Friday (2025-11-28): 10.5°C, overcast clouds<br>&bull; Saturday (2025-11-29): 11.1°C, light rain<br>
+User: what is the weather at stonehenge for the next 5 days?
+Bot: 5-day forecast for Stonehenge:<br>&bull; Monday (2025-11-24): 5.9°C, light rain<br>&bull; Tuesday (2025-11-25): 4.2°C, broken clouds<br>&bull; Wednesday (2025-11-26): 3.4°C, overcast clouds<br>&bull; Thursday (2025-11-27): 10.6°C, overcast clouds<br>&bull; Friday (2025-11-28): 8.2°C, overcast clouds<br>&bull; Saturday (2025-11-29): 8.3°C, moderate rain<br>
+User: thank you
+Bot: You're welcome!
+User: do I need a jacket in bristol tomorrow?
+Bot: Forecast for Bristol on 2025-11-25: 5.2°C, few clouds. Yes, you should wear a jacket. Would you like activities to do in Bristol?
+User: ok
+Bot: Activities in Bristol: Visit the Bristol Aquarium, go to the Bristol Museum and Art Gallery, or walk over the Clifton Suspension Bridge
+User: thanks
+Bot: No problem!
+User: do I need a jacket at the cotswolds in 3 days?
+Bot: Forecast for The Cotswolds on 2025-11-27: 9.6°C, overcast clouds. Yes, you should wear a jacket. Would you like activities to do in The Cotswolds?
+User: no
+Bot: Okay! Let me know if you want anything else.
+User: hello
+Bot: Hi
+User: 5 days forecast for Bristol
+Bot: Let me check the forecast for Bristol.
+User: what is the forecast for Bristol in next 5 days
+Bot: 5-day forecast for Bristol:<br>&bull; Tuesday (2025-11-25): 5.3°C, clear sky<br>&bull; Wednesday (2025-11-26): 4.5°C, overcast clouds<br>&bull; Thursday (2025-11-27): 10.5°C, light rain<br>&bull; Friday (2025-11-28): 8.0°C, overcast clouds<br>&bull; Saturday (2025-11-29): 7.9°C, light rain<br>&bull; Sunday (2025-11-30): 4.6°C, clear sky<br>
+User: do I need a jacket at stonehenge tomorrow?
+Bot: Forecast for Stonehenge on 2025-11-26: 3.0°C, overcast clouds. Yes, you should wear a jacket. Would you like activities to do in Stonehenge?
+User: yes
+Bot: Activities in Stonehenge: Explore the stone circle, visit the Visitor Centre, or go on a hike nearby
+User: thank you
+Bot: You're welcome!
+User: 5 day forecast for oxfrod
+Bot: Let me check the forecast for Oxford.
+User: what is the forecast for oxford in next 5 days?
+Bot: 5-day forecast for Oxford:<br>&bull; Tuesday (2025-11-25): 4.3°C, clear sky<br>&bull; Wednesday (2025-11-26): 2.8°C, overcast clouds<br>&bull; Thursday (2025-11-27): 9.9°C, light rain<br>&bull; Friday (2025-11-28): 7.9°C, overcast clouds<br>&bull; Saturday (2025-11-29): 7.1°C, overcast clouds<br>&bull; Sunday (2025-11-30): 3.2°C, scattered clouds<br>
+User: 5 day forecast for oxford
+Bot: 5-day forecast for Oxford:<br>&bull; Tuesday (2025-11-25): 4.3°C, clear sky<br>&bull; Wednesday (2025-11-26): 2.8°C, overcast clouds<br>&bull; Thursday (2025-11-27): 9.9°C, light rain<br>&bull; Friday (2025-11-28): 7.9°C, overcast clouds<br>&bull; Saturday (2025-11-29): 7.1°C, overcast clouds<br>&bull; Sunday (2025-11-30): 3.2°C, scattered clouds<br>
+User: thanks
+Bot: No problem!
+User: weather in bristol
+Bot: Forecast for Bristol on 2025-11-25: 5.3°C, clear sky. Would you like activities to do in Bristol?
+User: weather in. oxfrod tomorrow?
+Bot: Okay! Let me know if you want anything else.
+User: weather in oxford please
+Bot: Forecast for Oxford on 2025-11-25: 4.3°C, clear sky. Would you like activities to do in Oxford?
+User: weather in cumbria tomorrow
+Bot: Forecast for Cumbria on 2025-11-26: -0.8°C, overcast clouds. Would you like activities to do in Cumbria?
+User: 5 days forecast for bristol
+Bot: 5-day forecast for Bristol:<br>&bull; Tuesday (2025-11-25): 5.3°C, clear sky<br>&bull; Wednesday (2025-11-26): 4.5°C, overcast clouds<br>&bull; Thursday (2025-11-27): 10.5°C, light rain<br>&bull; Friday (2025-11-28): 8.0°C, overcast clouds<br>&bull; Saturday (2025-11-29): 7.9°C, light rain<br>&bull; Sunday (2025-11-30): 4.6°C, broken clouds<br>
+User: thanks!
+Bot: No problem!
+User: sunset time in oxford tomorrow?
+Bot: The sunset in Oxford on 2025-11-26 is at 16:03.
+User: thank you!
+Bot: You're welcome!
+User: weather in oxrod
+Bot: Sorry, I don't understand that.
+User: weather in oxford
+Bot: Forecast for Oxford on 2025-11-25: 4.3°C, clear sky. Would you like activities to do in Oxford?
+User: 5 day forecast for bristol
+Bot: 5-day forecast for Bristol:<br>&bull; Tuesday (2025-11-25): 5.3°C, clear sky<br>&bull; Wednesday (2025-11-26): 4.5°C, overcast clouds<br>&bull; Thursday (2025-11-27): 10.5°C, light rain<br>&bull; Friday (2025-11-28): 8.0°C, overcast clouds<br>&bull; Saturday (2025-11-29): 7.9°C, broken clouds<br>&bull; Sunday (2025-11-30): 4.6°C, broken clouds<br>
+User: do I need a jacket tomorrow?
+Bot: Let me check the forecast or sun times for Oxford.
+User: do I need a jacket in cumbria tomorrow?
+Bot: Forecast for Cumbria on 2025-11-26: -0.8°C, overcast clouds. Yes, you should wear a jacket. Would you like activities to do in Cumbria?
+User: yes
+User: sunrise time in bristol tomorrow
+Bot: The sunrise in Bristol on 2025-11-26 is at 07:44.
+User: thanks
+Bot: No problem!
