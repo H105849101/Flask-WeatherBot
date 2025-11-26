@@ -894,3 +894,7 @@ User: sunrise time in bristol tomorrow
 Bot: The sunrise in Bristol on 2025-11-26 is at 07:44.
 User: thanks
 Bot: No problem!
+User: weather in Atlantis
+Bot: Sorry, I don't understand that.
+User: weather in Atlantis
+Bot: weather in Atlantis

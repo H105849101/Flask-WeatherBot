@@ -18,7 +18,7 @@ logging.basicConfig(level=logging.INFO)
 
 db_path = os.path.expanduser("~/ChatterBot_A2/weatherbot.sqlite3")  # use absolute path
 db_dir = os.path.dirname(db_path)
-os.makedirs(db_dir, exist_ok=True)
+os.makedirs(db_dir, exist_ok=True) #telling python to use the SQL database
 
 
 db_uri = f"sqlite:///{db_path}"
@@ -39,7 +39,7 @@ my_bot = ChatBot(
 
 trainer = ListTrainer(my_bot) # global trainer
 corpus_trainer = ChatterBotCorpusTrainer(my_bot)
-corpus_trainer.train('chatterbot.corpus.english.greetings')
+corpus_trainer.train('chatterbot.corpus.english.greetings') #basic chatbot greeting training
 
 # def train_bot():
 #     trainer.train([
@@ -50,6 +50,8 @@ corpus_trainer.train('chatterbot.corpus.english.greetings')
 #         "Cheers", "You're welcome!"
 #     ])
 
+
+# bellow is all the question dialogue training I did with my chatbot
 trainer.train([
 "Hi", "Hello there!",
 "How are you?", "I'm doing well, thanks!",
@@ -199,14 +201,14 @@ last_city_requested = None
 #         trainer.train([formatted_q, f"Let me check the forecast or sun times for {readable_place}."])
 #
 
-print("Saving conversation log to:", os.path.abspath("conversation_log.txt"))
+print("Saving conversation log to:", os.path.abspath("conversation_log.txt")) #ensures the conversations are saved for later review
 
 def save_to_file(text):
     with open("conversation_log.txt", "a") as file:
-        file.write(text + "\n")
+        file.write(text + "\n") #defines the command to save conversations
 
 def get_activities_for_place(place_key: str) -> str:
-    return ", ".join(place_activities.get(place_key, ["No activities available."]))
+    return ", ".join(place_activities.get(place_key, ["No activities available."])) #defines activity dialogue
 
 
 def parse_forecast_date(user_input: str) -> datetime.date:
@@ -216,7 +218,7 @@ def parse_forecast_date(user_input: str) -> datetime.date:
     match = re.search(r"in (\d+) days", user_input.lower())
     if match:
         return today + timedelta(days=int(match.group(1)))
-    return today
+    return today #defines and organises day/ time dialogue
 
 
 def needs_jacket(temp: float, condition: str) -> str:
@@ -224,7 +226,7 @@ def needs_jacket(temp: float, condition: str) -> str:
         return "Yes, you should wear a jacket."
     if temp <= 15 and ("cloud" in condition.lower() or "wind" in condition.lower()):
         return "Probably. It might feel cool."
-    return "No, you probably won't need a jacket."
+    return "No, you probably won't need a jacket." #defines jacket dialogue
 
 
 def extract_city(user_input: str):
@@ -243,10 +245,10 @@ def extract_city(user_input: str):
             print("Matched single word city:", w)
             return city_name_map[w]
 
-    return None
+    return None #defines city dialogue and ensures pulling data for correct city
 
 
-def train_bot():
+def train_bot():  #trains the bot
     all_phrases = question_variations + future_forecast_phrases + jacket_questions + sun_times_questions + five_day_questions
     for place in places:
         readable_place = place.replace("_", " ").title()
@@ -277,10 +279,10 @@ def train_bot():
 train_bot()
 
 
-def get_bot_response(user_input: str) -> str:
+def get_bot_response(user_input: str) -> str: #trains the bot responses
     global waiting_for_activity_reply, last_city_requested
     user_input_clean = user_input.lower().strip()
-    save_to_file("User: " + user_input)
+    save_to_file("User: " + user_input) #trains the user input
 
     bot_response = my_bot.get_response(user_input)
     response_text = None
@@ -296,7 +298,7 @@ def get_bot_response(user_input: str) -> str:
                 f"{get_activities_for_place(last_city_requested)}"
             )
             waiting_for_activity_reply = False
-            return response_text
+            return response_text #trains bot to recognise the city data is requested for
 
 
         if any(user_input_clean == resp for resp in negative_responses):
@@ -315,7 +317,7 @@ def get_bot_response(user_input: str) -> str:
             lat, lon = get_coordinates_from_db(city_key)
 
             if lat is None or lon is None:
-                response_text = f"Sorry, I don’t have weather data for {city.replace('_', ' ').title()}."
+                response_text = f"Sorry, I don’t have weather data for {city.replace('_', ' ').title()}." #response if something goes wrong when pulling data
             else:
                 target_date = parse_forecast_date(user_input_clean).strftime("%Y-%m-%d")
 
@@ -326,9 +328,9 @@ def get_bot_response(user_input: str) -> str:
                         or "5 day forecast" in user_input_clean
                         or "five day forecast" in user_input_clean
                         or re.search(r"5\s*day[s]?\s*forecast", user_input_clean)
-                        or re.search(r"forecast.*5.*day", user_input_clean)
+                        or re.search(r"forecast.*5.*day", user_input_clean) #tells python how to present forecast data
                 ):
-                    forecast_data = get_5_day_forecast(lat, lon)  # <-- Use lat/lon, not city name
+                    forecast_data = get_5_day_forecast(lat, lon)
 
                     if forecast_data:
                         response_text = f"5-day forecast for {city.replace('_', ' ').title()}:<br>"
@@ -339,15 +341,15 @@ def get_bot_response(user_input: str) -> str:
 
 
                             date_obj = datetime.strptime(date, "%Y-%m-%d")
-                            day_name = date_obj.strftime("%A")
+                            day_name = date_obj.strftime("%A")#tells python how to present forecast data
 
                             #Adds bullet point to answer, and formats answer more clearly
-                            response_text += f"&bull; {day_name} ({date}): {avg_temp:.1f}°C, {most_common_condition}<br>"
+                            response_text += f"&bull; {day_name} ({date}): {avg_temp:.1f}°C, {most_common_condition}<br>" #trains forecast response
                     else:
                         response_text = f"Sorry, 5-day forecast for {city.replace('_', ' ').title()} is not available."
 
 
-                elif "sunrise" in user_input_clean or "sunset" in user_input_clean:
+                elif "sunrise" in user_input_clean or "sunset" in user_input_clean: #trains sunset/sunrise response
                     sun_times = get_sun_times(lat, lon)
                     if "sunrise" in user_input_clean:
                         response_text = f"The sunrise in {city.replace('_', ' ').title()} on {target_date} is at {sun_times['sunrise']}."
@@ -355,7 +357,7 @@ def get_bot_response(user_input: str) -> str:
                         response_text = f"The sunset in {city.replace('_', ' ').title()} on {target_date} is at {sun_times['sunset']}."
 
 
-                elif "weather" in user_input_clean or "jacket" in user_input_clean:
+                elif "weather" in user_input_clean or "jacket" in user_input_clean: #trains weather data response
                     forecast_data = get_5_day_forecast(lat, lon)
                     if target_date in forecast_data:
                         entries = forecast_data[target_date]
@@ -365,9 +367,9 @@ def get_bot_response(user_input: str) -> str:
 
                         response_text = (
                             f"Forecast for {city.replace('_', ' ').title()} on {target_date}: "
-                            f"{avg_temp:.1f}°C, {most_common_condition}."
+                            f"{avg_temp:.1f}°C, {most_common_condition}." #tells python how to present forecast data
                         )
-                        if "jacket" in user_input_clean:
+                        if "jacket" in user_input_clean: #trains jacket question response
                             response_text += " " + needs_jacket(avg_temp, most_common_condition)
                         response_text += f" Would you like activities to do in {city.replace('_', ' ').title()}?"
                         waiting_for_activity_reply = True

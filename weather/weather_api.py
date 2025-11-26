@@ -3,16 +3,16 @@ import os
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
 import logging
-from models import db, City
+from models import db, City #These lines are pulling/ connecting code from my other files to this file
 
 
 
 load_dotenv()
 api_key = os.getenv("OPENWEATHER_API_KEY")
 if not api_key:
-    raise RuntimeError("OPENWEATHER_API_KEY is not set in .env")
+    raise RuntimeError("OPENWEATHER_API_KEY is not set in .env") #Allows me to use API key without sharing it
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s") #logging info to look back on later
 
 # tf = TimezoneFinder()
 
@@ -22,7 +22,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(
 #     'the_cotswolds': {'latitude': 51.8330, 'longitude': -1.8433},
 #     'cambridge': {'latitude': 52.2053, 'longitude': 0.1218},
 #     'bristol': {'latitude': 51.4545, 'longitude': -2.5879},
-#     'oxford': {'latitude': 51.7520, 'longitude': -1.2577},
+#     'oxford': {'latitude': 51.7520, 'longitude': -1.2577},               #initially how I was connecting places to lat and lon
 #     'norwich': {'latitude': 52.6309, 'longitude': 1.2974},
 #     'stonehenge': {'latitude': 51.1789, 'longitude': -1.8262},
 #     'watergate_bay': {'latitude': 50.4429, 'longitude': -5.0553},
@@ -33,13 +33,13 @@ def save_city_to_db(city, lat, lon):
     if not City.query.filter_by(name=city.lower()).first():
         new_city = City(name=city.lower(), lat=lat, lon=lon)
         db.session.add(new_city)
-        db.session.commit()
+        db.session.commit() #saves the city and lat and lon data to my database
 
 def get_coordinates_from_db(city):
     record = City.query.filter_by(name=city.lower()).first()
     if record:
         return record.lat, record.lon
-    return None, None
+    return None, None #allows me to use the coordinates instead of the city names
 
 
 def populate_cities():
@@ -57,7 +57,7 @@ def populate_cities():
     }
 
     for name, (lat, lon) in cities.items():
-        save_city_to_db(name, lat, lon)
+        save_city_to_db(name, lat, lon) #new way I connected the coordinates while using SQL database
 
 
 
@@ -102,7 +102,7 @@ def populate_cities():
 def get_weather_data(city: str) -> dict:
     lat, lon = get_coordinates_from_db(city)
     if lat is None or lon is None:
-        return {"error": "Unknown city."}
+        return {"error": "Unknown city."} #allows me to pull the weather data from the api
 
 
     try:
@@ -116,11 +116,11 @@ def get_weather_data(city: str) -> dict:
             "city": city,
             "temperature": data["main"]["temp"],
             "condition": data["weather"][0]["description"],
-            "humidity": data["main"]["humidity"]
+            "humidity": data["main"]["humidity"] #Tells python how to present the data after pulling it from the api
         }
     except Exception as e:
         logging.error(f"Error fetching weather for {city}: {e}")
-        return {"error": "Unable to fetch weather data"}
+        return {"error": "Unable to fetch weather data"} #error handeling, so python know what to do if there is an error
 
 
 
@@ -130,17 +130,17 @@ def get_5_day_forecast(lat: float, lon: float) -> dict:
         params = {"lat": lat, "lon": lon, "appid": api_key, "units": "metric"}
         response = requests.get(url, params=params)
         response.raise_for_status()
-        data = response.json()
+        data = response.json() #allows me to collect 5 day forecast data from the API
         forecast_dict = {}
         for entry in data.get("list", []):
             date_str = entry["dt_txt"].split(" ")[0]
             temp = entry["main"]["temp"]
             condition = entry["weather"][0]["description"]
-            forecast_dict.setdefault(date_str, []).append({"temp": temp, "condition": condition})
+            forecast_dict.setdefault(date_str, []).append({"temp": temp, "condition": condition}) #tells python how to resent the data once received
         return forecast_dict
     except Exception as e:
         logging.error(f"Error fetching forecast for coordinates {lat},{lon}: {e}")
-        return {"error": "Unable to fetch forecast"}
+        return {"error": "Unable to fetch forecast"} #error handeling
 
 def get_sun_times(lat: float, lon: float, city_name: str = None) -> dict:
     try:
@@ -149,7 +149,7 @@ def get_sun_times(lat: float, lon: float, city_name: str = None) -> dict:
 
         response = requests.get(url, params=params)
         response.raise_for_status()
-        data = response.json()
+        data = response.json() #allows me to pull sunset and sunrise data from the api
 
         sunrise_utc = datetime.utcfromtimestamp(data["sys"]["sunrise"])
         sunset_utc = datetime.utcfromtimestamp(data["sys"]["sunset"])
@@ -160,11 +160,11 @@ def get_sun_times(lat: float, lon: float, city_name: str = None) -> dict:
 
         return {
             "sunrise": sunrise_local.strftime("%H:%M"),
-            "sunset": sunset_local.strftime("%H:%M")
+            "sunset": sunset_local.strftime("%H:%M") #tells python how to present said data
         }
     except Exception as e:
         logging.error(f"Error fetching sun times for {city_name or lat}:{lon}: {e}")
-        return {"error": "Unable to fetch sun times"}
+        return {"error": "Unable to fetch sun times"} #error handling
 
 
 # @app.route("/weather/<city>")
